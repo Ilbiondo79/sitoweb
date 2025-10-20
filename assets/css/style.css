@@ -37,74 +37,14 @@ a:focus {
   color: var(--humphree-orange);
 }
 
-header {
-  background: linear-gradient(135deg, var(--humphree-navy), var(--humphree-dark));
-  color: white;
-  padding: 1.5rem 2rem;
-}
-
-header .brand {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-header .brand img {
-  width: 64px;
-  height: 64px;
-  object-fit: contain;
-  filter: drop-shadow(0 6px 18px rgba(0, 0, 0, 0.3));
-}
-
-header .brand h1 {
-  margin: 0;
-  font-size: 1.875rem;
-  font-weight: 600;
-  letter-spacing: 0.03em;
-}
-
-header .brand p {
-  margin: 0.25rem 0 0;
-  color: rgba(255, 255, 255, 0.75);
-  font-size: 1rem;
-}
-
-header nav {
-  margin-top: 1rem;
-}
-
-header nav ul {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  padding: 0;
-  margin: 0;
-}
-
-header nav a {
-  color: white;
-  font-weight: 500;
-  padding: 0.5rem 1rem;
-  border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  transition: background 0.3s ease, color 0.3s ease, border 0.3s ease;
-}
-
-header nav a:hover,
-header nav a:focus {
-  background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(255, 255, 255, 0.45);
-}
-
 main {
   padding: 0 2rem 4rem;
 }
 
 .hero {
   position: relative;
-  margin-top: -3rem;
-  padding: 6rem 2rem 4rem;
+  margin-top: 0;
+  padding: 5rem 2rem 4rem;
   color: white;
   background: linear-gradient(135deg, rgba(0, 38, 58, 0.92), rgba(0, 166, 214, 0.85));
 }
@@ -245,21 +185,7 @@ main {
   font-size: 1.65rem;
 }
 
-footer {
-  background: var(--humphree-dark);
-  color: rgba(255, 255, 255, 0.72);
-  padding: 2rem;
-  text-align: center;
-  font-size: 0.95rem;
-}
-
-footer a {
-  color: rgba(255, 255, 255, 0.72);
-  text-decoration: underline;
-}
-
 @media (max-width: 600px) {
-  header,
   main {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
