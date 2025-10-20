@@ -13,6 +13,22 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
+    <header>
+      <div class="brand">
+        <img src="https://via.placeholder.com/120x120?text=Logo" alt="Humphree logo placeholder" />
+        <div>
+          <h1>Humphree Solutions</h1>
+          <p>Smarter control for demanding marine applications</p>
+        </div>
+      </div>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="humphree-interceptors.html">Interceptors</a></li>
+          <li><a href="professional.html">Professional</a></li>
+        </ul>
+      </nav>
+    </header>
+
     <main>
       <section class="hero">
         <h2>Humphree Interceptors for Dynamic Trim and Stability</h2>
@@ -77,5 +93,17 @@
         </div>
       </section>
     </main>
+
+    <footer>
+      <p>
+        &copy; <span id="current-year"></span> Delta Sierra Marine. Humphree&reg; is a registered
+        trademark of Humphree AB.
+      </p>
+      <p><a href="mailto:info@example.com">Contact us</a> for tailored configurations.</p>
+    </footer>
+
+    <script>
+      document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
